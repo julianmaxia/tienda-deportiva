@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #222;
+}
+
+header {
+    background: #111;
+    padding: 20px 8%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    color: white;
+    font-size: 28px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #e50914;
+}
+
+.hero {
+    min-height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(#000b, #000b);
+    color: white;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 650px;
+    font-size: 18px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background: #e50914;
+    color: white;
+    padding: 14px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #b20710;
+}
+
+.series-section {
+    padding: 70px 8%;
+}
+
+.series-section > h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 45px;
+}
+
+.series-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 18px #0002;
+}
+
+.poster {
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.rick {
+    background: linear-gradient(135deg, #19a974, #123);
+}
+
+.suits {
+    background: linear-gradient(135deg, #111, #777);
+}
+
+.smallville {
+    background: linear-gradient(135deg, #254c77, #111);
+}
+
+.beauty {
+    background: linear-gradient(135deg, #f5a9c5, #8c5470);
+}
+
+.card-content {
+    padding: 25px;
+}
+
+.card-content h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.card-content p {
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.contacto {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.contacto h2 {
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #000;
+    color: #aaa;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .menu {
+        gap: 15px;
+    }
+
+    .hero h2 {
+        font-size: 34px;
+    }
+
+    .series-grid {
+        grid-template-columns: 1fr;
+    }
+}
