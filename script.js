@@ -5,8 +5,12 @@ const contador = document.getElementById("contador-carrito");
 
 botones.forEach(function(boton) {
     boton.addEventListener("click", function() {
+
         carrito++;
         contador.textContent = "🛒 " + carrito;
-        alert("Producto agregado al carrito 🛒");
+
+        const producto = boton.parentElement.querySelector("h3").textContent;
+
+        alert(producto + " fue agregado al carrito 🛒");
     });
 });
