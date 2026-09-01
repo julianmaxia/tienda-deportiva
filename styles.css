@@ -166,3 +166,9 @@ footer p {
 #formulario-contacto button:hover {
     background-color: #b20710;
 }
+.serie img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    ...
+}
