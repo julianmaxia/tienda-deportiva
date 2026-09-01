@@ -78,3 +78,25 @@ nav a:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 18px #0003;
 }
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #inicio {
+        padding: 50px 15px;
+    }
+
+    #inicio h1 {
+        font-size: 32px;
+    }
+
+    #series {
+        padding: 40px 15px;
+    }
+
+    .serie {
+        padding: 20px;
+    }
+}
