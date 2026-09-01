@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+h1, h2 {
+    text-align: center;
+}
+nav {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e50914;
+}
+#inicio {
+    background-color: #222;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#inicio h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+#inicio p {
+    font-size: 18px;
+}
+#series {
+    padding: 60px 8%;
+}
+
+#series h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.serie {
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px #0002;
+}
+
+.serie h2 {
+    color: #e50914;
+    margin-bottom: 15px;
+}
+
+.serie p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+.serie {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.serie:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px #0003;
+}
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #inicio {
+        padding: 50px 15px;
+    }
+
+    #inicio h1 {
+        font-size: 32px;
+    }
+
+    #series {
+        padding: 40px 15px;
+    }
+
+    .serie {
+        padding: 20px;
+    }
+}
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+.boton {
+    display: inline-block;
+    background-color: #e50914;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.boton:hover {
+    background-color: #b20710;
+}
+#contacto {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #eee;
+}
+
+#formulario-contacto {
+    max-width: 500px;
+    margin: 30px auto 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#formulario-contacto input,
+#formulario-contacto textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+#formulario-contacto textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+#formulario-contacto button {
+    padding: 12px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#formulario-contacto button:hover {
+    background-color: #b20710;
+}

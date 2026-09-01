@@ -1,18 +1,16 @@
-let carrito = 0;
+console.log("Página de series cargada correctamente");
 
-const botones = document.querySelectorAll(".producto button");
-const contador = document.getElementById("contador-carrito");
-const cantidadCarrito = document.getElementById("cantidad-carrito");
+const botones = document.querySelectorAll(".boton");
 
 botones.forEach(function(boton) {
-    boton.addEventListener("click", function() {
-
-        carrito++;
-        contador.textContent = "🛒 " + carrito;
-        cantidadCarrito.textContent = carrito;
-
-        const producto = boton.parentElement.querySelector("h3").textContent;
-
-        alert(producto + " fue agregado al carrito 🛒");
+    boton.addEventListener("click", function(evento) {
+        evento.preventDefault();
+        alert("Próximamente encontrarás más información sobre esta serie.");
     });
+});
+const formulario = document.getElementById("formulario-contacto");
+
+formulario.addEventListener("submit", function(evento) {
+    evento.preventDefault();
+    alert("Mensaje enviado correctamente.");
 });

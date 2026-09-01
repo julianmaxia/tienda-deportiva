@@ -3,81 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SportZone</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Series Netflix</title>
 </head>
 
 <body>
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#series">Series</a>
+    <a href="#contacto">Contacto</a>
+</nav>
 
-<header>
-    <nav>
-        <a href="#">Inicio</a>
-        <a href="#productos">Productos</a>
-        <a href="#categorias">Categorías</a>
-        <a href="#contacto">Contacto</a>
-        <span id="contador-carrito">🛒 0</span>
-    </nav>
+<section id="inicio">
+<h1>Series Netflix</h1>
+<p>Descubre información sobre algunas de las series más populares.</p>
+</section>
+<section id="series">
 
-    <h1>SportZone</h1>
-    <p>Tu tienda de artículos deportivos</p>
-</header>
+    <h2>Mis series favoritas</h2>
 
-    <main>
-<h2>Productos destacados</h2>
+<article class="serie">
+    <h2>Rick and Morty</h2>
+<p>Serie animada de ciencia ficción y comedia protagonizada por Rick y Morty.</p>
+<p><strong>Categoría:</strong> Animación, ciencia ficción y comedia.</p>
+<p><strong>Actores principales:</strong> Justin Roiland, Chris Parnell, Spencer Grammer y Sarah Chalke.</p>
+<a href="#" class="boton">Ver más</a>
+</article>
 
-<section class="productos" id="productos">
+<article class="serie">
+    <h2>Suits: La ley de los audaces</h2>
+<p>Drama sobre abogados, negocios y los conflictos profesionales de un prestigioso bufete.</p>
+<p><strong>Categoría:</strong> Drama y comedia dramática.</p>
+<p><strong>Actores principales:</strong> Gabriel Macht, Patrick J. Adams, Meghan Markle y Sarah Rafferty.</p>
+<a href="#" class="boton">Ver más</a>
+</article>
 
+<article class="serie">
+    <h2>Smallville</h2>
+<p>La historia de Clark Kent durante su adolescencia y el descubrimiento de sus poderes.</p>
+<p><strong>Categoría:</strong> Drama, ciencia ficción y acción.</p>
+<p><strong>Actores principales:</strong> Tom Welling, Michael Rosenbaum, Kristin Kreuk y Allison Mack.</p>
+<a href="#" class="boton">Ver más</a>
+</article>
 
-    <!-- PRODUCTO 1 -->
-    <div class="producto">
-        <img src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=500&q=80" alt="Balón de fútbol">
-        <h3>Balón de fútbol</h3>
-        <p>Balón profesional para entrenamiento y competición.</p>
-        <p>$80.000</p>
-        <button>Comprar</button>
-    </div>
-
-    <!-- PRODUCTO 2 -->
-    <div class="producto">
-        <img src="https://images.unsplash.com/photo-1760177379284-b68471fdd217?auto=format&fit=crop&w=500&q=80" alt="Guantes de portero">
-        <h3>Guantes de portero</h3>
-        <p>Guantes resistentes para mejorar tu rendimiento.</p>
-        <p>$65.000</p>
-        <button>Comprar</button>
-    </div>
-
-    <!-- PRODUCTO 3 -->
-    <div class="producto">
-        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=500&q=80" alt="Tenis deportivos">
-        <h3>Tenis deportivos</h3>
-        <p>Tenis cómodos para entrenamiento y actividad física.</p>
-        <p>$180.000</p>
-        <button>Comprar</button>
-    </div>
+<article class="serie">
+    <h2>True Beauty</h2>
+<p>Drama romántico sobre una estudiante que utiliza el maquillaje para superar sus inseguridades.</p>
+<p><strong>Categoría:</strong> Romance, comedia y drama.</p>
+<p><strong>Actores principales:</strong> Moon Ga-young, Cha Eun-woo, Hwang In-youp y Park Yoo-na.</p>
+<a href="#" class="boton">Ver más</a>
+</article>
 
 </section>
+<section id="contacto">
 
-<section id="carrito" class="carrito">
+    <h2>Contacto</h2>
 
-    <h2>Mi carrito</h2>
+    <p>Proyecto académico sobre series de televisión.</p>
 
-    <p>Productos seleccionados: <span id="cantidad-carrito">0</span></p>
-
-</section>
-    </main>
-<section id="categorias" class="categorias">
-
-    <h2>Categorías</h2>
-
-    <div class="categorias-lista">
-        <div>⚽ Fútbol</div>
-        <div>🏀 Baloncesto</div>
-        <div>🏃 Running</div>
-        <div>🏋️ Fitness</div>
-    </div>
+    <form id="formulario-contacto">
+        <input type="text" id="nombre" placeholder="Tu nombre" required>
+        <input type="email" id="correo" placeholder="Tu correo" required>
+        <textarea id="mensaje" placeholder="Tu mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
 
 </section>
-    <script src="script.js"></script>
+<footer>
+    <p>© 2026 Series Netflix - Proyecto académico</p>
+</footer>
+
 </body>
 </html>
-
