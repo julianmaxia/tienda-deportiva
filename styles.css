@@ -44,3 +44,29 @@ nav a:hover {
 #inicio p {
     font-size: 18px;
 }
+#series {
+    padding: 60px 8%;
+}
+
+#series h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.serie {
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px #0002;
+}
+
+.serie h2 {
+    color: #e50914;
+    margin-bottom: 15px;
+}
+
+.serie p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
