@@ -55,3 +55,12 @@ main h2 {
 .producto p {
     margin-bottom: 10px;
 }
+.producto:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+.producto p:last-child {
+    font-weight: bold;
+    font-size: 20px;
+}
