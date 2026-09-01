@@ -1,4 +1,4 @@
-```javascript
+javascript
 const botones = document.querySelectorAll(".producto button");
 
 botones.forEach(function(boton) {
@@ -6,4 +6,3 @@ botones.forEach(function(boton) {
         alert("Producto agregado al carrito 🛒");
     });
 });
-```
