@@ -112,3 +112,17 @@ footer p {
     margin: 0;
     font-size: 14px;
 }
+.boton {
+    display: inline-block;
+    background-color: #e50914;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.boton:hover {
+    background-color: #b20710;
+}
