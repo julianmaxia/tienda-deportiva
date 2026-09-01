@@ -70,3 +70,11 @@ nav a:hover {
     line-height: 1.6;
     margin-bottom: 10px;
 }
+.serie {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.serie:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px #0003;
+}
