@@ -29,3 +29,18 @@ nav a {
 nav a:hover {
     color: #e50914;
 }
+#inicio {
+    background-color: #222;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#inicio h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+#inicio p {
+    font-size: 18px;
+}
