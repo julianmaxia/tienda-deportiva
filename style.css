@@ -153,3 +153,22 @@ nav a:hover {
         width: 95%;
     }
 }
+html {
+    scroll-behavior: smooth;
+}
+
+header p {
+    font-size: 18px;
+}
+
+.producto button {
+    transition: 0.3s;
+}
+
+.producto button:hover {
+    transform: scale(1.05);
+}
+
+.carrito span {
+    font-weight: bold;
+}
