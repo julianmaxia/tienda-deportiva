@@ -1,9 +1,10 @@
 console.log("Página de series cargada correctamente");
 
-const enlaces = document.querySelectorAll(".menu a");
+const botones = document.querySelectorAll(".boton");
 
-enlaces.forEach(function(enlace) {
-    enlace.addEventListener("click", function() {
-        console.log("Navegando por la página");
+botones.forEach(function(boton) {
+    boton.addEventListener("click", function(evento) {
+        evento.preventDefault();
+        alert("Próximamente encontrarás más información sobre esta serie.");
     });
 });
