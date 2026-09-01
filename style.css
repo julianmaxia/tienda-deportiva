@@ -130,3 +130,26 @@ nav a:hover {
     margin-top: 15px;
     font-size: 18px;
 }
+@media (max-width: 768px) {
+    .productos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .producto {
+        width: 90%;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    header h1 {
+        font-size: 32px;
+    }
+
+    main {
+        width: 95%;
+    }
+}
